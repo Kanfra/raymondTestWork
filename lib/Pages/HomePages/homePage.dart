@@ -26,50 +26,50 @@ class _HomePageState extends State<HomePage> {
 		switch (code) {
 		  case >= 200 && < 300 :
 		    return Image.asset(
-					width: 250,
-					height: 250,
+					width: 150,
+					height: 150,
 					'${ImageStringGlobalVariables.imagePath}1.png'
 				);
 			case >= 300 && < 400 :
 		    return Image.asset(
-						width: 250,
-						height: 250,
+						width: 150,
+						height: 150,
 					'${ImageStringGlobalVariables.imagePath}2.png'
 				);
 			case >= 500 && < 600 :
 		    return Image.asset(
-						width: 250,
-						height: 250,
-					'${ImageStringGlobalVariables.imagePath}.png'
+						width: 150,
+						height: 150,
+					'${ImageStringGlobalVariables.imagePath}3.png'
 				);
 			case >= 600 && < 700 :
 		    return Image.asset(
-						width: 250,
-						height: 250,
+						width: 150,
+						height: 150,
 					'${ImageStringGlobalVariables.imagePath}4.png'
 				);
 			case >= 700 && < 800 :
 		    return Image.asset(
-						width: 250,
-						height: 250,
+						width: 150,
+						height: 150,
 					'${ImageStringGlobalVariables.imagePath}5.png'
 				);
 			case == 800 :
 		    return Image.asset(
-						width: 250,
-						height: 250,
+						width: 150,
+						height: 150,
 					'${ImageStringGlobalVariables.imagePath}6.png'
 				);
 			case > 800 && <= 804 :
 		    return Image.asset(
-						width: 250,
-						height: 250,
+						width: 150,
+						height: 150,
 					'${ImageStringGlobalVariables.imagePath}7.png'
 				);
 		  default:
 			return Image.asset(
-					width: 250,
-					height: 250,
+					width: 150,
+					height: 150,
 				'${ImageStringGlobalVariables.imagePath}7.png'
 			);
 		}
